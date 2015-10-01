@@ -106,7 +106,7 @@ public class Main {
                         if (gruntcl) {
                             cfg.setBlenderBin(blenderExe);
                         }
-                        startLoki(lokiForm);//escolhe mestre, escraco ou mestre/escravo
+                        startLoki(lokiForm);//escolhe mestre, escravo ou mestre/escravo
 
                     } catch (IOException ex) {
                         //fatal error during Announce startup
@@ -242,6 +242,9 @@ public class Main {
      * @param localGrunt
      * @throws IOException
      * -from AnnounceR() *FATAL*
+     */
+    /*inicia a janela do master e o grunt se o mesmo for local
+     *Também envia multicast para que os grunts possam localizar o master       
      */
     private static void startMaster(LokiForm hiddenForm, boolean localGrunt)
             throws IOException {

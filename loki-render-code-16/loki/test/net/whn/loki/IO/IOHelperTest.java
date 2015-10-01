@@ -47,7 +47,7 @@ public class IOHelperTest {
                 new File ("/home/daniel/daniel/loki/blendFiles/XYZ123.blend");
         File lokiCfgDir = new File("/home/daniel/.loki");
 
-        MasterIOHelper.addBlendCacheToLokiCache(lokiCfgDir, blendFile);
+      //  MasterIOHelper.addBlendCacheToLokiCache(lokiCfgDir, blendFile);
     }
 
     /**

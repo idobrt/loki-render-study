@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/common/PreferencesForm.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/CL/ProcessHelper.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/master/MasterR.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/common/ICommon.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/CL/CLHelper.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/master/GruntDetailsForm.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/grunt/GruntForm.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/common/AboutForm.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/master/AddJobForm.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/common/Main.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/common/Config.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/master/MasterForm.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/network/StreamSocketA.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/network/Hdr.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/messaging/MsgQueue.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/master/JobDetailsForm.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/master/AddingJobForm.java</file>
+            <file>file:/home/idobrt/loki-render-code-16/netbeansProj/src/net/whn/loki/common/LokiForm.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -143,7 +143,9 @@ public class MasterR extends MsgQueue implements Runnable, ICommon {
          */
         while (!shutdown) {
             try {
+                System.out.println("Run do masterR msg é:"+fetchNextMessage().toString());           
                 handleMessage(fetchNextMessage());
+                System.out.println("Run do masterR msg é:"+fetchNextMessage().toString());                
             } catch (InterruptedException IntEx) {
                 /**
                  * signaled ourselves to shutdown

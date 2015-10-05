@@ -60,6 +60,7 @@ public abstract class MsgQueue {
      * @throws InterruptedException if thread is interrupted while waiting
      */
     public Msg fetchNextMessage() throws InterruptedException {
+        
         return messageQueue.take();
     }
 

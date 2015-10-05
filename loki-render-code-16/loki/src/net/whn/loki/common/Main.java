@@ -259,6 +259,7 @@ public class Main {
     private static void startMaster(LokiForm hiddenForm, boolean localGrunt)
             throws IOException {
         AnnouncerR announcer;
+        //multicast pela rede dizendo o ip do master...
         announcer = new AnnouncerR(cfg, hiddenForm);
         master = new MasterR(lokiCfgDir, cfg, announcer,
                 masterMessageQueueSize);

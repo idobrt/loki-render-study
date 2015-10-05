@@ -120,7 +120,7 @@ public class GruntR implements Runnable, ICommon {
                     }
                     
                     if(!localShutdown) {
-                        
+                        //se encontramos um master caímos aqui
                         machineUpdateHandler =
                                 Executors.newSingleThreadScheduledExecutor();
 

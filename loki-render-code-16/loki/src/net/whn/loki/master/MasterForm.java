@@ -119,8 +119,11 @@ public class MasterForm extends LokiForm implements ICommon {
      * @param j
      */
     void addJob(JobFormInput j) {
+        /*
+         Aqui eu atualizo a mensagem do master para adicionar um job na fila
+        */
         try {
-            AddingJobForm ajForm = new AddingJobForm();
+            AddingJobForm ajForm = new AddingJobForm();//mostra a telinha marota =)
             ajForm.setLocationRelativeTo(this);
             ajForm.setVisible(true);
             manager.deliverMessage(new AddJobMsg(j, ajForm));
@@ -466,7 +469,10 @@ public class MasterForm extends LokiForm implements ICommon {
     private void btnStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStartActionPerformed
         if (!queueRunning) { //start the queue
             queueRunning = true;
-            try {
+            try {/*
+                 Após clicar no botão mandamos uma msg para o master iniciar
+                os processos enfileirados
+                */
                 manager.deliverMessage(new Msg(MsgType.START_QUEUE));
                 btnStart.setText("Stop");
             } catch (InterruptedException ex) {

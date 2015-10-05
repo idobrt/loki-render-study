@@ -44,7 +44,7 @@ public class ListenerR implements Runnable, ICommon {
 
         while (!Thread.currentThread().isInterrupted()) {
             try {
-                try {
+                try {//aceita a conexão e envia a msg para aceitar os grunts
                     gruntSocket = listenSocket.accept();
                     master.deliverMessage(new AddGruntMsg(gruntSocket));
                 } catch (InterruptedException ex) {

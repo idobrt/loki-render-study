@@ -77,7 +77,9 @@ public class MasterR extends MsgQueue implements Runnable, ICommon {
         lastTotalCores = -1;
 
         //listener setup here
-        try {
+        try {/*faz a conexão e tem um run da thread do listner que envia 
+               uma msg para aceitar os grunts pela porta definida   
+            */
             listener = new ListenerR(cfg.getConnectPort(), this);
         } catch (Exception ex) {   //TODO - hmmm...
             //if either of these fail, we have to quit
@@ -143,8 +145,11 @@ public class MasterR extends MsgQueue implements Runnable, ICommon {
          */
         while (!shutdown) {
             try {
-                System.out.println("Run do masterR msg é:"+fetchNextMessage().toString());           
+                //manda msg pra add grunts 
+                System.out.println("Run do masterR msg é:"+fetchNextMessage().toString());  
+                
                 handleMessage(fetchNextMessage());
+                //depois a msg muda para update grunt ....
                 System.out.println("Run do masterR msg é:"+fetchNextMessage().toString());                
             } catch (InterruptedException IntEx) {
                 /**
